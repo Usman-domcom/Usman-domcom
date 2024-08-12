@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T2B Gaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('hi.JPG');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .featured-games {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .featured-games h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .games-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .game {
+            background-color: #444;
+            padding: 20px;
+            margin: 15px;
+            width: 250px;
+            border-radius: 8px;
+        }
+        .game img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .game h3 {
+            font-size: 1.5em;
+            margin: 15px 0 10px;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>T2B Gaming</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to T2B Gaming</h2>
+        <p>Your ultimate destination for gaming news and reviews!</p>
+    </div>
+
+    <section class="featured-games">
+        <h2>Featured Games</h2>
+        <div class="games-list">
+            <div class="game">
+                <img src="free fire.jpg" alt="Game 1">
+                <h3>Free Fire</h3>
+                <p>The gameplay in Free Fire is centered around a battle royale format, where players are pitted against each other in a fight to be the last person standing</p>
+            </div>
+            <div class="game">
+                <img src="Candy Crush.jpeg" alt="Game 2">
+                <h3>Candy Crush</h3>
+                <p>Candy Crush Saga is a "match three" game, where the core gameplay is based on swapping two adjacent candies among several on the gameboard to make a row or column of at least three matching-colored candies.</p>
+            </div>
+            <div class="game">
+                <img src="PUBG.png" alt="Game 3">
+                <h3>PUBG</h3>
+                <p>PUBG is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created By T2B Gaming (MU)</p>
+    </footer>
+
+</body>
+</html>
